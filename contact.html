@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+
+
+
+
+    <!---Header Section Started-->
+    <section class="sub-header">
+        <nav>
+            <a><img src="img/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Contact Us</h1>
+
+    </section>
+
+    <!---Header Section ends-->
+
+
+    <!---Contact us content Section starts-->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30294570.451818634!2d-89.14850144852282!3d22.047006318366954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8b5460f9c0fcf%3A0x94fa9481183c7669!2sWashington%20University%20in%20St.%20Louis!5e0!3m2!1sen!2sbd!4v1638083046159!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>ABC Road, XYZ Building</h5>
+                        <p>Shalgaria, Pabna, Bangladesh</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h5>+8801303323878</h5>
+                        <p>Monday to Friday, 10 AM - 7.00 PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="far fa-envelope-open"></i>
+                    <span>
+                        <h5>shain1044cse@gmail.com</h5>
+                        <p>Email Us for more queries</p>
+                    </span>
+                </div>
+
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" placeholder="Enter your name" name="name" required>
+                    <input type="email" placeholder="Enter your email" name="email" required>
+                    <input type="text" placeholder="Enter your subject" name="subject" required>
+                    <textarea rows="8" placeholder="Message" name="message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+                
+            </div>
+        </div>
+    </section>
+    
+
+
+
+  <!---Contact us content Section ends-->
+
+
+
+
+
+
+
+
+     <!---Footer Section starts here-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Voluptas, asperiores labore <br> at explicabo nulla eius quod 
+            vitae obcaecati illo. Consequatur!</p>
+
+            <div class="icons">
+                
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <p class="last">Made with <i class="fas fa-heart"></i> by Shahinul Islam</i></p>
+    </section>
+
+
+
+     <!---Footer Section ends here-->
+
+
+
+    <script src="main.js"></script>
+    
+
+
+</body>
+</html>
